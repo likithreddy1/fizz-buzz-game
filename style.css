@@ -1,0 +1,49 @@
+body{
+    
+    background:url(back.jpg) repeat center/cover;
+    font-family:century;
+    font-weight: bold;
+}
+.container{
+    font-family: century;
+    text-align: center;
+    border-radius: 15px;
+    background-color:white;
+    position:absolute;
+    top: 35%;
+    left: 32.5%;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    
+}
+#input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 150px;
+    text-align: center;
+    font-family: century;
+    font-weight: bold;
+    font-family: century;
+}
+#input:focus{
+    border-bottom: 2px solid black;
+    width: 200px;
+    transition: 0.3s;
+}
+button{
+    border:none;
+    border-radius: 25px;
+    width: 100px;
+    padding: 7px;
+    background:#0077b5;
+    font-family: century;
+    font-weight: bold;
+}
+button:hover{
+    transition: 00.3s;
+    font-size: 17px;
+    width: 125px;
+    box-shadow: 0 0 5px #0077b5;
+}
